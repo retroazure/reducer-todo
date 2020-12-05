@@ -10,7 +10,7 @@ const TodoForm = (props) => {
     }
 
     const handleClear = event => {
-        event.preventDefault;
+        event.preventDefault();
         clearCompleted();
     }
 

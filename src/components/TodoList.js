@@ -18,7 +18,7 @@ const TodoList = () => {
     dispatch( {type: 'CLEAR_COMPLETED'} );
 
     const handleChange = event =>
-    dispatch( { type: 'HANDLE_CHANGE', pyaload: event.target.value } );
+    dispatch( { type: 'HANDLE_CHANGE', payload: event.target.value } );
 
     return(
         <div className='todo-list'>
