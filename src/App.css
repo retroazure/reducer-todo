@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+.todo {
+
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+
+.completed {
+
+  background-color: black;
+
+}
